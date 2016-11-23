@@ -1,3 +1,15 @@
 <p>
   conv-miles-to-km works!
 </p>
+
+<p>
+<input #myMessage myMessage.value=' />'
+<button (click)="onClickMe(myMessage.value)">Enter Miles</button>
+</p>
+
+<p>
+<input #myMessage2 myMessage2.value=' />'
+<button (click)="onClickMe2(myMessage2.value)">Enter Kilometers</button>
+</p>
+<h3 class='message'>{{clickMessage}}</h3>
+Your Conversion

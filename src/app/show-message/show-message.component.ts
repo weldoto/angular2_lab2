@@ -11,6 +11,8 @@ export class ShowMessageComponent implements OnInit {
   onClickMe(myMessage: string) {
     this.clickMessage = myMessage;
   }
+     
+    
   ngOnInit() {
   }
 
